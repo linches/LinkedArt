@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 
 router.get('/', (req, res) => {
-  res.render('home', {hi: 'LinkedArt App'})
+  res.render('index', {hi: 'LinkedArt'})
 })
 
 router.get('/theatres', (req, res) => {

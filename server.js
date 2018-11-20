@@ -1,6 +1,7 @@
 const express = require('express')
 const hbs = require('express-handlebars')
 const path = require('path')
+const data = require('./views')
 
 const routes = require('./routes')
 
@@ -16,13 +17,13 @@ server.use('/', routes)
 server.get('/', (req, res) => {
   console.log('/route hit')
   const data = {
-    homePageList: [
-      {name: 'Theatre', color: '', style: ''},
-      {name: 'Musicals', color: '', style: ''},
-      {name: 'Dance Auditions', color: '', style: ''},
-      {name: 'Classes', color: '', style: ''}
+    list: [
+      'Theatre',
+      'Musicals',
+      'Dance Auditions',
+      'Classes'
     ]
   }
-  res.render('home')
+  res.render('index', data)
 })
 module.exports = server
