@@ -4,7 +4,7 @@ const router = express.Router()
 router.get('/', (req, res) => {
   const data = {
     hi: 'LinkedArt',
-    list: ['Theatre', 'Musicals', 'Dance Auditions', 'Classes'],
+    list: [{name: 'Theatres', link: '/theatres'}],
     whatIsOn: 'What\'s on on the city ',
     articles: 'Articles'
   }
@@ -12,7 +12,11 @@ router.get('/', (req, res) => {
 })
 
 router.get('/theatres', (req, res) => {
-  res.render('theatres', {page: 'THEATRES'})
+  const data = {
+    page: 'THEATRES',
+    theatreList: ['1', '2', '3']
+  }
+  res.render('theatres', data)
 })
 
 router.get('/musicals', (req, res) => {
