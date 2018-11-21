@@ -17,7 +17,8 @@ html {
  */
 
 body {
-  margin: 0;
+  margin: 30;
+
 }
 
 /* HTML5 display definitions
@@ -64,20 +65,20 @@ video {
  * Remove excess height in iOS 5 devices.
  */
 
-audio:not([controls]) {
+/* audio:not([controls]) {
   display: none;
   height: 0;
-}
+} */
 
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
 
-[hidden],
+/* [hidden],
 template {
   display: none;
-}
+} */
 
 /* Links
    ========================================================================== */
