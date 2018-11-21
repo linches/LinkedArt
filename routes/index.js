@@ -13,9 +13,7 @@ router.get('/', (req, res) => {
 
 router.get('/theatres', (req, res) => {
   const data = {
-    page: 'THEATRES',
-    theatreList: ['1', '2', '3']
-  }
+    page: 'THEATRES'}
   res.render('theatres', data)
 })
 

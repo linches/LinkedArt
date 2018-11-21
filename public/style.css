@@ -4,6 +4,11 @@ body {
   color: lightcoral;
 }
 
+h1 {
+  font-size:  80px;
+  text-align: center;
+  
+}
 
 /* a {
   color: #8B864E;
