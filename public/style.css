@@ -14,12 +14,24 @@ h1 {
   font-style: inherit;
   font-family: Verdana;
 }
+h2 {
+  font-size:  40px;
+  text-align: center;
+  font-style: italic;
+  font-family: Verdana;
+  color: magenta;
+}
 
 a {
   color: darkmagenta;
   text-align: center;
 }
 
+button {
+  color: darkmagenta;
+  text-align: center;
+  font-size: 30px;
+}
 
 
 li  {

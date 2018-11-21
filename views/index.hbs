@@ -13,25 +13,26 @@
   <em><h1 style="color: magenta", >{{ hi }}</h1></em>
 <ul>
   {{#each list}}
-  <li><a href="{{this.link}}">{{this.name}}</a></li>
+  <li><button onClick=location.href="{{this.link}}">{{this.name}}</li>
   {{!-- <button  --}}
   {{/each}}
 </ul>
 
 
-{{!-- <h2>{{{whatIsOn}}}</h2> --}}
-
 {{!-- <a class="button button-primary" href="https://www.thebigidea.nz/stories/media-releases">{{{articles}}}</a> --}}
-<button><a href="https://www.thebigidea.nz/stories/media-releases">{{{articles}}}</a></button>
+{{!-- <button><a href="https://www.thebigidea.nz/stories/media-releases">{{{articles}}}</a></button> --}}
+
+  <div class="row">
+    <div class="one column"></div>
+    <div class="eleven columns"><h2><button onClick=location.href="{{whatIsOn.link}}">{{whatIsOn.name}}</h2>
+    </div>
+  </div>
+
+<button onClick='location.href="https://www.thebigidea.nz/stories/media-releases"'>articles</button>
 </body>
 
 
   <!-- columns should be the immediate child of a .row -->
-  <div class="row">
-    <div class="one column"></div>
-    <div class="eleven columns"><h2><a href="{{whatIsOn.link}}">{{whatIsOn.name}}</a></h2></div>
-  </div>
-
   <!-- just use a number and class 'column' or 'columns' -->
   {{!-- <div class="row">
     <div class="two columns">Two</div>
