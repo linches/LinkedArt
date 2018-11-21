@@ -2,7 +2,9 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: url("/curls.png");
   color: lightcoral;
-  
+  border: 2px solid magenta;
+  border-radius: 30px;
+  text-align: center;
   
 }
 
