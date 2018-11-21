@@ -5,8 +5,8 @@ router.get('/', (req, res) => {
   const data = {
     hi: 'LinkedArt',
     list: ['Theatre', 'Musicals', 'Dance Auditions', 'Classes'],
-    whatIsOn: 'What\'s on on the city '
-    // {articles: 'Articles'}
+    whatIsOn: 'What\'s on on the city ',
+    articles: 'Articles'
   }
   res.render('./index', data)
 })
