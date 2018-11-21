@@ -2,6 +2,8 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: url("/curls.png");
   color: lightcoral;
+  
+  
 }
 
 h1 {
@@ -20,12 +22,16 @@ a {
 
 li  {
   font-size: 20px;
-  
+    
 }
 
 p {
   text-align: center;
   color: red;
+  margin-block-start: 10px;
+}
+ul {
+  position: inherit;
 }
 /* 
 a:hover {

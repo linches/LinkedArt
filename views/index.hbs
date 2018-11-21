@@ -11,12 +11,12 @@
   <!-- .container is main centered wrapper -->
 <div class="container">
   <em><h1 style="color: magenta", >{{ hi }}</h1></em>
-<li>
+<ul>
   {{#each list}}
-  <ul><a href="{{this.link}}">{{this.name}}</a></ul>
+  <li><a href="{{this.link}}">{{this.name}}</a></li>
   {{!-- <button  --}}
   {{/each}}
-</li>
+</ul>
 
 
 {{!-- <h2>{{{whatIsOn}}}</h2> --}}
