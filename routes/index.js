@@ -2,7 +2,11 @@ const express = require('express')
 const router = express.Router()
 
 router.get('/', (req, res) => {
-  res.render('index', {hi: 'LinkedArt'})
+  const data = {
+    list: ['Theatre', 'Musicals', 'Dance Auditions', 'Classes'],
+    hi: 'LinkedArt'
+  }
+  res.render('./index', data)
 })
 
 router.get('/theatres', (req, res) => {
@@ -20,4 +24,5 @@ router.get('/dances', (req, res) => {
 router.get('/workshops', (req, res) => {
   res.render('workshops', {page: 'CLASSES AND WORKSHOPS'})
 })
+
 module.exports = router
