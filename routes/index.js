@@ -26,8 +26,8 @@ router.get('/dances', (req, res) => {
   res.render('dances', {page: 'DANCE CLASSES'})
 })
 
-router.get('/workshops', (req, res) => {
-  res.render('workshops', {page: 'CLASSES AND WORKSHOPS'})
+router.get('/classes', (req, res) => {
+  res.render('classes', {page: 'CLASSES AND WORKSHOPS'})
 })
 
 router.get('/whatison', (req, res) => {
