@@ -19,7 +19,7 @@ h2 {
   text-align: center;
   font-style: italic;
   font-family: Verdana;
-  color: magenta;
+  color: red;
 }
 
 a {
@@ -41,100 +41,28 @@ li  {
 
 p {
   text-align: center;
-  color: red;
+  color: rgb(255, 0, 106);
   margin-block-start: 10px;
+  font-size: 30px;
 }
+.text {
+  width: 20%
+}
+
+/* p.center 
+{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+} */
+
 ul {
   position: inherit;
 }
-/* 
-a:hover {
-  color: #fff; 
-  text-shadow: 1px 1px #8B864E ;
-  transition: 0.3s;
-} */
 
-/* nav {
-  margin: 20px;   
-  height: 50px;
-  float: left;
-} */
-
-/* nav ul {
-  position: relative; 
-  left: -50px;
-  top: -5px;
-} */
-
-/* nav li {
-  width: 93px;
-  padding: 10px;
-  float: left;
-  text-align: center;
-  background: #FEF0DB; 
-  border: 1px solid #8B864E;
-  border-radius: 5px; 
-  margin: 10px;
-  list-style: none;
-} */
-
-/* #container {
-  width: 350px;
-  height: 400px;
-  margin: auto;
-  overflow: auto;
-  border: 1px solid #8B864E;
-  border-radius: 5px;
-  margin-top: 40px;
-  padding: 30px 0 30px 60px ;
-  background: #FEF1B5;
-} */
-
-/* .catcreate {
-  margin: 20px;
-  color: #8B864E;
-} */
-
-/* .catcreate input {
-  width: 200px;
-  border-radius: 5px;
-  border:1px #8B864E solid; 
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  margin: 0 0 0 25px;
-  color: #8B864E;
-} */
-
-
-/* #back {
-  margin: 20px 20px 20px 100px;
-  background: #FEF0DB;
-  width: auto; 
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px #8B864E solid;
-  width: 70px;
-  color: #8B864E;
-} */
-
-/* .title {
-  text-align: center;
-  background: #FEF0DB; 
-  padding-bottom: 30px; 
-  border-radius: 5px;
-  border:1px #8B864E solid; 
-  color: #fff; 
-  text-shadow: 1px 1px #8B864E;
-  width: 250px;
-  height: 40px;
-  margin: 20px;
-  float: left;
-} */
-
-/* #catnames {
-  float: left;
-  position: relative;
-  top: -20px;
-  left: -30px;
-} */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
