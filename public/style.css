@@ -59,6 +59,7 @@ p {
 
 ul {
   position: inherit;
+  list-style-type: none;
 }
 
 .header {
